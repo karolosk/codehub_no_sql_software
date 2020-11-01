@@ -5,6 +5,15 @@ title: Software needed for NoSQL class
 ## CouchDB
 
 ### Windows
+- Go to https://couchdb.apache.org/#download and get the latest 2.X version for Windows. Do *not* get the version 3.X 
+![windows_search](images/windows_couch_install.PNG)
+- Run the typical wizard  and keep default values
+- Complete the installation wizard
+- Search for `Fauxton` (CouchDB DBMS) and click on the result in the websites or go to your browser at http://localhost:5984/_utils/index.html 
+![windows_search](images/windows_couch_fauxton.PNG)
+
+- You should be able to see something like this
+![fauxton](images/fauxton_web.PNG)
 
 ### Linux
 
