@@ -1,12 +1,14 @@
 
-# Software needed for NoSQL sessions
+---
+title: Software needed for NoSQL class
+---
 
 ### Redis
 Redis is a NO-SQL, key-value in-memory remote database that offers high performance, replication, and a unique data model. 
 
 #### Windows
 - Go to https://github.com/microsoftarchive/redis/releases/tag/win-3.0.504
-![redis_windows_release](https://github.com/karolosk/codehub_no_sql_software/blob/gh-pages/images/redis_windows_release.PNG)
+![redis_windows_release](/images/redis_windows_release.PNG)
 
 - Download the msi file. You can download alterantively the zip file but you will need to add manually environmental variables.
 - Assuming that we are using the msi file, go over the typical installation wizard but do not forget to check the add to path variable.
