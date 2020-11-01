@@ -1,27 +1,26 @@
 
-## Needed Software
+# Software needed for NoSQL sessions
 
 ### Redis
 Redis is a NO-SQL, key-value in-memory remote database that offers high performance, replication, and a unique data model. 
 
-## Windows
+#### Windows
 - Go to https://github.com/microsoftarchive/redis/releases/tag/win-3.0.504
-![alt text](https://github.com/karolosk/codehub_no_sql_software/blob/gh-pages/images/redis_windows_release.PNG)
+![redis_windows_release](https://github.com/karolosk/codehub_no_sql_software/blob/gh-pages/images/redis_windows_release.PNG)
+
 - Download the msi file. You can download alterantively the zip file but you will need to add manually environmental variables.
 - Assuming that we are using the msi file, go over the typical installation wizard but do not forget to check the add to path variable.
 ![alt text](https://github.com/karolosk/codehub_no_sql_software/blob/gh-pages/images/redis_windows_path.PNG)
 
 - Let the port number and the add exception as it is and continue with the default values in the wizard
-![alt text](https://github.com/karolosk/bi_software/blob/main/pythonv.png)
-
 - With msi installer the redis-server will automatically run in the background when the system starts
-![alt text](https://github.com/karolosk/bi_software/blob/main/pythonv.png)
+![redis_process](https://github.com/karolosk/codehub_no_sql_software/blob/gh-pages/images/redis_windows_redis_server.PNG)
 
 - In order to connect to the redis server open a cmd and type `redis-cli`. If everything is correct you will connect to your local instance and you will be able to start interacting with the redis server. You can try `SET key value` and it should return `OK` and then `GET key` to get the assigned value.
-![alt text](https://github.com/karolosk/bi_software/blob/main/pythonv.png)
+![redis_cli](https://github.com/karolosk/codehub_no_sql_software/blob/gh-pages/images/redis_windows_redis_cli.PNG)
 
 
-## Linux
+#### Linux
 
 ## Welcome to GitHub Pages
 
