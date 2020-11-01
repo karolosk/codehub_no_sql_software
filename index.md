@@ -12,17 +12,43 @@ Redis is a NO-SQL, key-value in-memory remote database that offers high performa
 
 - Download the msi file. You can download alterantively the zip file but you will need to add manually environmental variables.
 - Assuming that we are using the msi file, go over the typical installation wizard but do not forget to check the add to path variable.
-![alt text](https://github.com/karolosk/codehub_no_sql_software/blob/gh-pages/images/redis_windows_path.PNG)
+![alt text](/images/redis_windows_path.PNG)
 
 - Let the port number and the add exception as it is and continue with the default values in the wizard
 - With msi installer the redis-server will automatically run in the background when the system starts
-![redis_process](https://github.com/karolosk/codehub_no_sql_software/blob/gh-pages/images/redis_windows_redis_server.PNG)
+![redis_process](/images/redis_windows_redis_server.PNG)
 
 - In order to connect to the redis server open a cmd and type `redis-cli`. If everything is correct you will connect to your local instance and you will be able to start interacting with the redis server. You can try `SET key value` and it should return `OK` and then `GET key` to get the assigned value.
-![redis_cli](https://github.com/karolosk/codehub_no_sql_software/blob/gh-pages/images/redis_windows_redis_cli.PNG)
+![redis_cli](/images/redis_windows_redis_cli.PNG)
 
 
 #### Linux
+
+
+### Python
+
+We will need Python > 3.5 version in order to build some simple CRUD applications and demonstrate how to use NoSQL data stores within applications.
+Linux and Mac users should have both 2.7.x and > 3.6.x versions installed by default on their machines. You can check your current version for both of them with:
+
+```
+python --version
+python3 --version
+```
+
+![alt text](/pythonv.png)
+
+Windows users please go at https://www.python.org/downloads/windows/ and get the appropriate file for your PC. Please note that during the installation you will be asked to add Python in Path. You should enable this option. 
+
+![alt text](/pythonpath.png)
+
+It allows you to run your files on cmd by: 
+
+```
+python python_file.py
+```
+
+If you do not enable this you will be forced to use the full python path to execute your programs. (for example, it will be something like: 
+c:/users/username/program files/python36/python pytthon_file.py )
 
 ## Welcome to GitHub Pages
 
