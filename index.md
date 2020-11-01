@@ -60,7 +60,7 @@ Redis is a NO-SQL, key-value in-memory remote database that offers high performa
 ![redis_process](/images/redis_windows_redis_server.PNG)
 
 - In order to connect to the redis server open a cmd and type `redis-cli`. If everything is correct you will connect to your local instance and you will be able to start interacting with the redis server. You can try `SET key value` and it should return `OK` and then `GET key` to get the assigned value.
-is cou
+
 ![redis_cli](/images/redis_windows_redis_cli.PNG)
 
 
