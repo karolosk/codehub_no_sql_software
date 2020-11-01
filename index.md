@@ -1,3 +1,24 @@
+
+## Needed Software
+
+### Redis
+Redis is a NO-SQL, key-value in-memory remote database that offers high performance, replication, and a unique data model. 
+
+## Windows
+- Go to https://github.com/microsoftarchive/redis/releases/tag/win-3.0.504
+- image
+- Download the msi file. You can download alterantively the zip file but you will need to add manually environmental variables.
+- Assuming that we are using the msi file, go over the typical installation wizard but do not forget to check the add to path variable.
+- image
+- Let the port number and the add exception as it is and continue with the default values in the wizard
+- image
+- With msi installer the redis-server will automatically run in the background when the system starts
+- image
+- In order to connect to the redis server open a cmd and type `redis-cli`. If everything is correct you will connect to your local instance and you will be able to start interacting with the redis server. You can try `SET key value` and it should return `OK` and then `GET key` to get the assigned value.
+-image
+
+## Linux
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/karolosk/codehub_no_sql_software/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
