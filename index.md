@@ -2,7 +2,29 @@
 ---
 title: Software needed for NoSQL class
 ---
+
+In this github page you can find some basic guidelines of how to install the software that we will use in the NoSQL class. Overall we will use
+- MongoDB
+- CouchDB
+- Redis
+- Python
+
+You will find some instructions for windows and linux users (Ubuntu 20.04 based). 
+
+## MongoDB
+MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas
+
+### Windows
+- Go to https://www.mongodb.com/try/download/community?tck=docs_server and pick your platform and package. Get the current versions (At this time 4.4.1)
+This link will provide direct download for Windos msi package for V4.4.4.1: https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-4.4.1-signed.msi
+- Keep the options as is and keep also enabled the install MongoDB Compass enabled
+- When the installation ends
+
+
+### Linux
+
 ## CouchDB
+Apache CouchDB is an open-source document-oriented NoSQL database, implemented in Erlang. CouchDB uses multiple formats and protocols to store, transfer, and process its data, it uses JSON to store data, JavaScript as its query language using MapReduce, and HTTP for an API.
 
 ### Windows
 - Go to https://couchdb.apache.org/#download and get the latest 2.X version for Windows. Do *not* get the version 3.X 
@@ -33,6 +55,7 @@ Redis is a NO-SQL, key-value in-memory remote database that offers high performa
 ![redis_process](/images/redis_windows_redis_server.PNG)
 
 - In order to connect to the redis server open a cmd and type `redis-cli`. If everything is correct you will connect to your local instance and you will be able to start interacting with the redis server. You can try `SET key value` and it should return `OK` and then `GET key` to get the assigned value.
+is cou
 ![redis_cli](/images/redis_windows_redis_cli.PNG)
 
 
@@ -63,41 +86,3 @@ python python_file.py
 
 If you do not enable this you will be forced to use the full python path to execute your programs. (for example, it will be something like: 
 c:/users/username/program files/python36/python pytthon_file.py )
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/karolosk/codehub_no_sql_software/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/karolosk/codehub_no_sql_software/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
