@@ -2,7 +2,6 @@
 ---
 title: Software needed for NoSQL class
 ---
-
 ## CouchDB
 
 ### Windows
