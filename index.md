@@ -3,10 +3,16 @@
 title: Software needed for NoSQL class
 ---
 
-### Redis
+## CouchDB
+
+### Windows
+
+### Linux
+
+## Redis
 Redis is a NO-SQL, key-value in-memory remote database that offers high performance, replication, and a unique data model. 
 
-#### Windows
+### Windows
 - Go to https://github.com/microsoftarchive/redis/releases/tag/win-3.0.504
 ![redis_windows_release](/images/redis_windows_release.PNG)
 
@@ -22,10 +28,10 @@ Redis is a NO-SQL, key-value in-memory remote database that offers high performa
 ![redis_cli](/images/redis_windows_redis_cli.PNG)
 
 
-#### Linux
+### Linux
 
 
-### Python
+## Python
 
 We will need Python > 3.5 version in order to build some simple CRUD applications and demonstrate how to use NoSQL data stores within applications.
 Linux and Mac users should have both 2.7.x and > 3.6.x versions installed by default on their machines. You can check your current version for both of them with:
@@ -35,11 +41,11 @@ python --version
 python3 --version
 ```
 
-![alt text](/pythonv.png)
+![alt text](/images/pythonv.png)
 
 Windows users please go at https://www.python.org/downloads/windows/ and get the appropriate file for your PC. Please note that during the installation you will be asked to add Python in Path. You should enable this option. 
 
-![alt text](/pythonpath.png)
+![alt text](/images/pythonpath.png)
 
 It allows you to run your files on cmd by: 
 
