@@ -1,4 +1,3 @@
-
 ---
 title: Setting Up Sandbox MongoDB
 ---
