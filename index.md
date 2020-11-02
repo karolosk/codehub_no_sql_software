@@ -14,7 +14,7 @@ MongoDB is a cross-platform document-oriented database program. Classified as a 
 
 ### Cloud 
 
-It is recommended to setup an account in Atlas and create a free tier cluster there. The process is straight forward but you can find some details [click here for the Getting Started documentation](atlas.md). 
+It is recommended to setup an account in Atlas and create a free tier cluster there. The process is straight forward but you can find some details [here](atlas.md). 
 
 ### Windows
 - Go to https://www.mongodb.com/try/download/community?tck=docs_server and pick your platform and package. Get the current versions (At this time 4.4.1)
