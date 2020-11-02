@@ -12,6 +12,10 @@ You will find some instructions for windows and linux users (Ubuntu 20.04 based)
 ## MongoDB
 MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas
 
+### Cloud 
+
+It is recommended to setup an account in Atlas and create a free tier cluster there. The process is straight forward but you can find some details here. 
+
 ### Windows
 - Go to https://www.mongodb.com/try/download/community?tck=docs_server and pick your platform and package. Get the current versions (At this time 4.4.1)
 This link will provide direct download for Windos msi package for V4.4.4.1: https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-4.4.1-signed.msi
