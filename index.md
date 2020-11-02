@@ -46,6 +46,34 @@ Apache CouchDB is an open-source document-oriented NoSQL database, implemented i
 
 ### Linux
 
+- Enable Apache CouchDB packare repo
+```cmd
+sudo apt-get install -y gnupg ca-certificates
+```
+- Install needed packages
+```cmd
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys \
+  8756C4F765C9AC3CB6B85D62379CE192D401AB61
+```
+
+- Update repo cache and install the package
+```cmd
+sudo apt update
+sudo apt install -y couchdb
+```
+In the wizard that it will appear pick Standalone/ let the bind address as it is/ and optionally enter a password for your admin. If you do so please remember it.
+![couch_linux](/images/Screenshot_20201102_115527-1.png)
+
+Visit Fauxton when the process ends at: http://127.0.0.1:5984/_utils/#
+
+You can start/stop/restart couchdb with:
+
+```cmd
+sudo systemctl start couchdb 
+sudo systemctl stop couchdb
+sudo systemctl restart couchdb 
+```
+
 ## Redis
 Redis is a NO-SQL, key-value in-memory remote database that offers high performance, replication, and a unique data model. 
 
