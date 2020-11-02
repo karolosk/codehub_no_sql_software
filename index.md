@@ -62,7 +62,7 @@ sudo apt update
 sudo apt install -y couchdb
 ```
 In the wizard that it will appear pick Standalone/ let the bind address as it is/ and optionally enter a password for your admin. If you do so please remember it.
-![couch_linux](/images/Screenshot_20201102_115527-1.png)
+![couch_linux](/images/couch_linux.png)
 
 Visit Fauxton when the process ends at: http://127.0.0.1:5984/_utils/#
 
