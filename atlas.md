@@ -1,5 +1,5 @@
 ---
-title:Setting Up Sandbox MongoDB
+title: Setting Up Sandbox MongoDB
 ---
 - Go to https://www.mongodb.com/cloud/atlas
 - Create an account or sign in 
