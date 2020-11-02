@@ -30,6 +30,33 @@ This link will provide direct download for Windos msi package for V4.4.4.1: http
 
 ### Linux
 
+- Get the puclic key:
+```
+wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+```
+- Create a list file for MongoDB and update your repo
+```
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+```
+```
+sudo apt-get update
+```
+- Install MongoDB package
+```cmd
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+47
+```
+- You should be able now to use the service
+```cmd
+sudo service mongod start
+```
+- Connect via the cli by using:
+```cmd
+mongo
+```
+
+Do not forget to also install MongoDB Compass. You can test the connection as described in Windows section
+
 ## CouchDB
 Apache CouchDB is an open-source document-oriented NoSQL database, implemented in Erlang. CouchDB uses multiple formats and protocols to store, transfer, and process its data, it uses JSON to store data, JavaScript as its query language using MapReduce, and HTTP for an API.
 
