@@ -5,7 +5,7 @@ title: Setting Up Sandbox MongoDB
 - Go to https://www.mongodb.com/cloud/atlas
 - Create an account or sign in 
 - If you have already created an organization and a project you should see something like this:
-![cluster0](images/cluster0.png)
+![cluster0](../images/cluster0.png)
 - Click on Build a cluster and you will be redirected at:
 ![cluster0](images/cluster1.png)
 - Pick free tier
