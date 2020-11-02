@@ -1,5 +1,5 @@
 ---
-title: Software needed for BI class
+title: Software needed for NoSQL training class
 ---
 In this github page you can find some basic guidelines of how to install the software that we will use in the NoSQL class. Overall we will use
 - MongoDB
