@@ -1,6 +1,6 @@
 
 ---
-title: Software needed for NoSQL class
+title: My custom title
 ---
 
 In this github page you can find some basic guidelines of how to install the software that we will use in the NoSQL class. Overall we will use
