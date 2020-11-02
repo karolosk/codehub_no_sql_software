@@ -6,18 +6,18 @@ title:Setting Up Sandbox MongoDB
 - If you have already created an organization and a project you should see something like this:
 IMAGE
 - Click on Build a cluster and you will be redirected at:
-![compass_init](images/compass.PNG)
+![cluster0](images/cluster0.PNG)
 - Pick free tier
 - There will be several options now available. All the providers will have an available free option. Note that this will be free forever -at least for the time being- if you do not change any of the settings in Cluster Tier. This is a sandbox database so performance does not matter, but you would want to pick an option -location wise- near you. 
-![compass_init](images/compass.PNG)
+![cluster1](images/cluster1.PNG)
 - Click on create cluster and wait some minutes for this to be ready.
-![compass_init](images/compass.PNG)
+![cluster2](images/cluster3.PNG)
 - As soon as this is done you can try to connect to your instance with any of mongo shell, compass or an application. 
 - You will be prompted to set up firewall access and a database user. Choose allow access from anywhere (click add IP address) and enter credentials that you will use to connect to the database (create database user).
-![compass_init](images/compass.PNG)
+![cluster3](images/cluster4.PNG)
 - When you are done click on Choose a connection method
   - Assuming you have compass installed you can get directly the connection string when you pick compass in the connection methods and create a new connection in compass
-  ![compass_init](images/compass.PNG)
+  ![cluster4](images/pasted image 0 (1).png)
   - If you wish to connect via Python you can do so with the below code
   ```python
   import pymongo
