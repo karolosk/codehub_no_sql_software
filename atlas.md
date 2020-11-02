@@ -19,7 +19,11 @@ IMAGE
   - Assuming you have compass installed you can get directly the connection string when you pick compass in the connection methods and create a new connection in compass
   ![compass_init](images/compass.PNG)
   - If you wish to connect via Python you can do so with the below code
-  ![compass_init](images/compass.PNG)
+  ```python
+  import pymongo
+  client = pymongo.MongoClient("connection_string")
+  db = client.test
+  ```
   You will need to install the packages pymongo and dnspython for the srv connection string.  
 
 
