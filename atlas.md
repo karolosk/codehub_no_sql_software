@@ -15,11 +15,11 @@ title:Setting Up Sandbox MongoDB
 - As soon as this is done you can try to connect to your instance with any of mongo shell, compass or an application. 
 - You will be prompted to set up firewall access and a database user. Choose allow access from anywhere (click add IP address) and enter credentials that you will use to connect to the database (create database user).
 
-![cluster3](images/pasted image 0.png)
+![cluster3](images/pastedimage0.png)
 - When you are done click on Choose a connection method
   - Assuming you have compass installed you can get directly the connection string when you pick compass in the connection methods and create a new connection in compass
   
-  ![cluster4](images/pasted image 1.png)
+  ![cluster4](images/pastedimage1.png)
   - If you wish to connect via Python you can do so with the below code
   ```python
   import pymongo
