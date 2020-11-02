@@ -68,6 +68,28 @@ Redis is a NO-SQL, key-value in-memory remote database that offers high performa
 
 ### Linux
 
+- In you terminal execute:
+```cmd
+sudo apt update
+sudo apt install redis-server
+```
+This will install redis with all its dependecies.
+
+- Check that redis is running
+```cmd
+sudo systemctl status redis
+```
+- If it does not run try:
+```cmd
+sudo systemctl start redis
+```
+- You should be able now to use the redis-cli and connect to your local instance.
+```cmd
+redis-cli
+127.0.0.1:6379> ping
+PONG
+127.0.0.1:6379> 
+```
 
 ## Python
 
